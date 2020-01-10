@@ -10,9 +10,6 @@ import numpy as np
 from os import listdir             #here this lib we r using becoz we have to fetch data from another file...
 from os.path import isfile, join
 
-
-
-
 data_path='E:\python practice\openCV\collected face/'         #this is path where our image is store we becoz w e need images for traing
 onlyfiles=[f for f in listdir(data_path,) if isfile(join(data_path,f))]   #we also need files and we join path and files
 
